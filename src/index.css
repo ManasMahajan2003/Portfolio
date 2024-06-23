@@ -1,0 +1,160 @@
+body{
+  background-color: rgb(245,255,255) !important;
+  /* max-height: 100vh !important; */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Archivo', sans-serif;
+}
+.container{
+  flex: 1;
+}
+/* Navbar */
+.navbar{
+  background-color: rgb(245,255,255) !important ;
+  /* border-bottom:1px solid rgb(76, 74, 74); */
+  height: 4rem;
+}
+
+.navbar-collapse.show {
+  z-index: 1000; /* Set a higher z-index */
+  background-color: rgb(245,255,255); /* Set background color */
+   /* Add padding for better visibility */
+}
+
+@media (max-width:300px) {
+  .title{
+      margin-left: 0 !important;
+      padding-left: 0 !important;
+  }
+  .navbar{
+      padding-left: 0 !important;
+  }
+}
+@media (max-width:576px) {
+  .home-section{
+      display: flex !important;
+      flex-direction: column-reverse !important;
+  }
+}
+
+/* @media (max-width:500px) {
+  .home-section{
+      display: flex;
+      flex-direction: column-reverse;
+  }
+  .tophead{
+      margin-top: 0 !important;
+  }
+} */
+#manas{
+  color: rgb(0,90,205);
+}
+
+.home-btn{
+  background-color: rgba(0, 90, 205) !important;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  border-radius: 1rem;
+}
+
+.about-content{
+  padding: 1rem;
+  border-radius: 2rem;
+  /* background-color: rgb(183, 225, 225,0.8); */
+  background-color: rgba(0, 140, 255, 0.5);
+  background-color: rgba(109,215,253, 0.5);
+  margin: 1rem;
+}
+
+.card{
+  margin: 1rem !important;
+}
+.card-header{
+  background-color: rgb(190,240,255) !important;
+}
+.card-footer{
+  background-color: rgb(190,240,255) !important;
+}
+.card-body{
+  background-color: rgb(245,255,255) !important;
+}
+.s1{
+  color: rgb(0,90,205);
+}
+
+/* .contact-info{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+  margin: auto;
+  margin-top: 10em;
+}
+.contact-info h2{
+  background-color: rgb(109,215,253);
+  font-size: 200%;
+} */
+
+.contact-page h2,h4{
+  margin: auto;
+  text-align: center;
+}
+.contact-page h2{
+  margin-top: 5rem;
+}
+
+/* .footer{
+  height: 6.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky !important;
+  bottom: 0 !important;
+  background-color:rgb(245,255,255) ;
+  border-top: 0.3px solid rgb(0, 0, 0, 0.5);
+  padding: 0.5rem 1rem;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+} */
+/* .footer-links a{
+  margin-left: 2.5rem;
+} */
+/* .img{
+  width: 50vw;
+  height: 50vh;
+} */
+
+.footer {
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky !important;
+  bottom: 0 !important;
+  background-color: rgb(245, 255, 255);
+  border-top: 0.3px solid rgba(0, 0, 0, 0.5);
+  padding: 0.5rem 1rem;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.home-section {
+  min-height: calc(100vh - 4rem - 6.5vh); /* Adjust based on navbar and footer height */
+  display: flex;
+  align-items: center;
+}
+
+.contact-page {
+  min-height: calc(100vh - 4rem - 6.5vh); /* Adjust based on navbar and footer height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
