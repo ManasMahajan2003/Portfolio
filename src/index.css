@@ -102,6 +102,14 @@ body{
   background-color: rgb(109,215,253);
   font-size: 200%;
 } */
+.projects-heading-container{
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
 
 .contact-page{
   height: 100vh;

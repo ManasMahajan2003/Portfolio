@@ -5,6 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Projects = () => {
   return (
     <Container fluid>
+      <div className='projects-heading-container'><h2 className='projects-heading'>My Projects</h2></div>
+      
       <Card className="text-center mb-3">
         <Card.Header><b>Airbnb Clone</b></Card.Header>
         <Card.Body>
