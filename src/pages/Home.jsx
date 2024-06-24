@@ -17,7 +17,7 @@ const Home = () => {
             <h1 className="ms-5 mt-4 fs-1">I'm <span id="manas">Manas</span></h1>
             <h1 className="ms-5 mt-4 fs-1">Web <span  style={{color:'black'}}>{text}</span><Cursor/></h1>
             <NavLink to="/contact">
-                <button className="btn btn-primary home-btn ms-5 mt-5">Contact</button>
+                <button className="btn btn-primary home-btn ms-5 mt-4 ">Contact</button>
             </NavLink>
         {/* <form action="/contact" method="get">
             <button className="btn btn-primary home-btn ms-5 mt-5">Contact</button>
