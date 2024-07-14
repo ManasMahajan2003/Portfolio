@@ -70,20 +70,20 @@ const Projects = () => {
         <Card.Body>
           <Card.Title>React project utilizing Redux Toolkit</Card.Title>
           <Card.Text>The motive of this project was to work with redux-toolkit and learn about cart features</Card.Text>
-          <Button href="https://manasmahajan2003.github.io/Simon-Game/" variant="primary" className="m-1" target="_blank" rel="noopener noreferrer">View project</Button>
-          <Button href="https://github.com/ManasMahajan2003/Simon-Game" variant="primary" className="m-1" target="_blank" rel="noopener noreferrer">GitHub repository</Button>
+          <Button href="https://shopping-cart-seven-ashy.vercel.app/" variant="primary" className="m-1" target="_blank" rel="noopener noreferrer">View project</Button>
+          <Button href="https://github.com/ManasMahajan2003/ShoppingCart" variant="primary" className="m-1" target="_blank" rel="noopener noreferrer">GitHub repository</Button>
         </Card.Body>
-        <Card.Footer className="text-muted">HTML CSS Javascript</Card.Footer>
+        <Card.Footer className="text-muted">React.js</Card.Footer>
       </Card>
       <Card className="text-center mb-3">
         <Card.Header><b>Simon Game</b></Card.Header>
         <Card.Body>
           <Card.Title>Javascript project of Simon Game</Card.Title>
           <Card.Text>Basic project made during early days of learning HTML, CSS and Javascript</Card.Text>
-          <Button href="https://manasmahajan2003.github.io/Spotify-clone/" variant="primary" className="m-1" target="_blank" rel="noopener noreferrer">View project</Button>
-          <Button href="https://github.com/ManasMahajan2003/Spotify-clone" variant="primary" className="m-1" target="_blank" rel="noopener noreferrer">GitHub repository</Button>
+          <Button href="https://manasmahajan2003.github.io/Simon-Game/" variant="primary" className="m-1" target="_blank" rel="noopener noreferrer">View project</Button>
+          <Button href="https://github.com/ManasMahajan2003/Simon-Game" variant="primary" className="m-1" target="_blank" rel="noopener noreferrer">GitHub repository</Button>
         </Card.Body>
-        <Card.Footer className="text-muted">HTML CSS</Card.Footer>
+        <Card.Footer className="text-muted">HTML CSS Javascript</Card.Footer>
       </Card>
       <Card className="text-center mb-3">
         <Card.Header><b>Desktop Spotify clone</b></Card.Header>
@@ -93,7 +93,7 @@ const Projects = () => {
           <Button href="https://manasmahajan2003.github.io/Spotify-clone/" variant="primary" className="m-1" target="_blank" rel="noopener noreferrer">View project</Button>
           <Button href="https://github.com/ManasMahajan2003/Spotify-clone" variant="primary" className="m-1" target="_blank" rel="noopener noreferrer">GitHub repository</Button>
         </Card.Body>
-        <Card.Footer className="text-muted">HTMl CSS</Card.Footer>
+        <Card.Footer className="text-muted">HTML CSS</Card.Footer>
       </Card>
       
     </Container>
