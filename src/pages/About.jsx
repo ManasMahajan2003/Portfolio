@@ -3,7 +3,7 @@ const About = () => {
     <section className="container-fluid">
         <div className="about-content">
             <p className="container mt-4 fs-5" >
-                <span className="s1"><b>Hey! I'm Manas</b></span>, a third-year B.Tech CSE student with a passion for web development. Currently navigating the challenges of academia with 8.32 CGPA, I'm also carving out my space in the digital world.
+                <span className="s1"><b>Hey! I'm Manas</b></span>, a final year B.Tech CSE student with a passion for web development. Currently navigating the challenges of academia with 8.36 CGPA, I'm also carving out my space in the digital world.
             <br/><br/>
         
                 My journey into coding started a while back, and the more I learn, the more I realize how fascinating and dynamic web development can be. I've dabbled in everything from the basics of HTML, CSS, and JavaScript to the complexities of Node.js.
